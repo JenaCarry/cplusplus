@@ -1,3 +1,4 @@
+// biblioteca de entrada e saída
 #include <iostream>
 
 // assim posso omitir o std na função
