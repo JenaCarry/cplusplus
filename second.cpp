@@ -31,5 +31,19 @@ int main()
   int restDiv = a % b;
   cout << "Rest of Division: " << restDiv << endl;
 
+  // potência = a ^ b
+  float pot = pow(a, b);
+  cout << "Power: " << pot << endl;
+
+  // Incremento e Decremento
+  // a = a + 1 ou a = a - 1
+  // a += 1 ou a -= 1
+  // a++ ou a--
+  a++;
+  cout << "Increment: " << a << endl;
+
+  a--;
+  cout << "Decrement: " << a << endl;
+
   return 0;
 }
