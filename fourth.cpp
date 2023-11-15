@@ -13,7 +13,7 @@ int main()
 
   float average = (gradeOne + gradeTwo) / 2;
 
-  cout << "Media do aluno: " << average << endl;
+  cout << "Media do aluno e: " << average << endl;
 
   if (average < 2.5)
   {
@@ -31,6 +31,23 @@ int main()
   {
     cout << "Nota final: A\n";
   }
+
+  float frequency;
+  cout << "Qual e a frequencia do aluno? ";
+  cin >> frequency;
+
+  // logical operators
+  // if (average >= 5 && frequency >= 75)
+  // {
+  //   cout << "Aluno APROVADO!";
+  // }
+  // else
+  // {
+  //   cout << "Aluno REPROVADO!";
+  // }
+
+  // ternary operator
+  (average >= 5 && frequency >= 75) ? cout << "Aprovado!" : cout << "Reprovado!";
 
   return 0;
 }
