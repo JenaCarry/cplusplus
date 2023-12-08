@@ -1,5 +1,4 @@
 #include <iostream>
-#include <math.h>
 
 using namespace std;
 
@@ -36,11 +35,11 @@ int main()
   cout << "Informe o fatorial desejado: ";
   cin >> fact;
 
-  int resultWhile = factorialWhile(abs(fact));
-  int resultFor = factorialFor(abs(fact));
+  int resultWhile = factorialWhile(fact * -1);
+  int resultFor = factorialFor(fact * -1);
 
-  cout << "O fatorial de " << abs(fact) << "! e a = " << resultWhile << endl;
-  cout << "O fatorial de " << abs(fact) << "! e a = " << resultFor;
+  cout << "O fatorial de " << fact * -1 << "! e a = " << resultWhile << endl;
+  cout << "O fatorial de " << fact * -1 << "! e a = " << resultFor;
 
   return 0;
 }
