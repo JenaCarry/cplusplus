@@ -13,7 +13,7 @@ int main()
   cout << "Qual sua renda? R$";
   cin >> income;
 
-  if (age >= 21 && income <= 1200)
+  if (age >= 21 && income < 1200)
   {
     cout << "Voce pode participar do Programa Moradia Popular!";
   }
